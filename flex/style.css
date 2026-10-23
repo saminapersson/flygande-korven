@@ -90,3 +90,19 @@ p.tagline {
 .footer-logo img {
     width: 180px
 }
+
+@media (max-width: 659px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .menu-middle {
+        flex-direction: column;
+    }
+
+    footer {
+        align-items: unset;
+        gap: 16px;
+    }
+}
+
